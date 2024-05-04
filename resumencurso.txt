@@ -1,0 +1,79 @@
+Certificacion de AWS-Certificacion-Cloud-Practitioner
+para el dia 8 Julio 2024
+
+Seccion 1 : Introducción conceptos en la nube
+
+Esta certificacion valida un conocimiento fundamental de la nube, servicios y la terminologia de AWS
+es para aquellas personas que no tienen experencia previa en TI o en la nube y quieren dedicarse a la nube como empleados de negocio
+
+este examen en particular se divide en 4 dominios
+
+Dominio 1 : conceptos de la nube                       24 %         
+Dominio 2 : seguridad y cumplimiento                   30 %
+Dominio 3 : tecnologiam y servicios en la nube         34 %      
+Dominio 4 : facturacion, precios y soporte             12 % 
+
+Seccion 1 : Introduccion y recursos del curso
+
+Seccion 2 : conceptos de la nube
+
+¿ Que es la computacion en la nube?
+
+La nube es un termino que se describe como una red mundial de servidores, cada uno con una funcion unica.
+no es una entidad fisica, sino una red enorme de servidores remotos de todo el mundo que estan conectados para funcionar
+como un unico ecosistema. dichos servidores estan diseñados para almacenar y administrar datos, ejecutar aplicaciones o entregar contenidos o servicios.
+En lugar de acceder a arcvhivos y datos desde un equipo personal o local, accede a ellos online desde cualquier dispositivo conectado a internet
+es decir la informacion esta disponible dondequieras que vayas y siempre que la necesites.
+
+Computacion en la nube -> es la que entrega bajo demanda recursos de TI a traves de internet con precios de pago por uso.
+
+la entrega bajo demanda hace referencia a que un proveedor de nube tiene los recursos que necesita, cuando los necesita
+servidores, redes, almacenamiento, herramientas de desarrollo y aplicaciones
+pague solo por lo que necesita y cuando lo necesite.
+
+Ventajs de la computacion en la nube
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
