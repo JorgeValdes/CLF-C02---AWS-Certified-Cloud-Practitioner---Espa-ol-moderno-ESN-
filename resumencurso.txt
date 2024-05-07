@@ -31,17 +31,29 @@ la entrega bajo demanda hace referencia a que un proveedor de nube tiene los rec
 servidores, redes, almacenamiento, herramientas de desarrollo y aplicaciones
 pague solo por lo que necesita y cuando lo necesite.
 
-Ventajs de la computacion en la nube
+Ventajas de la computacion en la nube
+
+las Ventajas de la conexion en la nube comprende de 6 ventajas definido por AWS
 
 
+1.Gasto incial a Gasto variable, quiere decir que solo se paga por los recursos informaticos que se consumen, en lugar de invertir en centro de datos y servidores
+para optar su uso, con esto las empresas pueden implementar soluciones innovadoras a la vez que ahorran costos.
 
+2.Beneficiarse de las economias de escala masivas
+se puede logar un costo mas bajo, que se puede conseguir por su propia cuenta, alcanzan economias de escala mas elevada
 
+3.Dejar de adivinar la capacidad
+si necesitas mas capacidad solamente se solicita, puede escalar hacia arriba o hacia abajo con tan solo unos minutos de anticipacion
 
+4.aumenta la velocidad y la agilidad
+facilita la implementacion de entornos en la nube con la creacion de aplicaciones en un entorno en la nube, realizado unos pocos clicks
 
+5.deje de gastar dinero en ejecutar y mantener centros de datos
+te puedes concentrar en proyectos que diferencien tu negocio y no en la infraestructura
+te permite concetrate en tus propios clientes en lugar del trabajo pesado
 
-
-
-
+6.Globalizate en minutos
+La presencia global de la nube permite implementar aplicaciones a clientes de todo el mundo rapidamente
 
 
 
