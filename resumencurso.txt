@@ -55,11 +55,41 @@ te permite concetrate en tus propios clientes en lugar del trabajo pesado
 6.Globalizate en minutos
 La presencia global de la nube permite implementar aplicaciones a clientes de todo el mundo rapidamente
 
+Modelos de Computacion en la nube
+
+respuesta a necesidad de distintos perfiles de usuario
+
+tipos de despliegue que actualmente existen, asi se ajustan a tus necesidas o las de tu negocio
+
+Iaas = dicha infraestructura contiene los componentes basicos de la TI en la nube. Por lo general, proporciona acceso a funciones de red, ordenadores (virtuales o en hardware dedicado) y espacio de almacenamiento de datos. La infraestructura como servicio proporciona el maximo nivel de 
+       flexibilidad y control de administracion de sus recursos de TI. Un ejemplo de esto es Amazon Web Services, proporciona una amplia red de recursos de la computacion en la nube para ayudar a las empresas empresas en tener recursos virtualizados sin depender de la estructura fisica.
+       Este modelo proporciona uno de los mas altos controles y niveles de flexibilidad de todos los modelos de despliegue de los recursos tecnologicos que se tienen en disposicion.
+
+Paas = en dicho modelo tu organizacion no tendra que administrar la infraestructura subyacente que soporta los despliegues de los sistemas o aplicaciones y podras enfocarte simplemente en implementarlos y administrarlos, de esta forma se aumenta la eficiencia de los equipos, puesto que deben preocuparse
+       solamente en aplicar recursos tener capacidad de infraestructura, mantener el software aplicar parches o realizar cualquier otra tarea general, con la ejecucion de tareas.
+       algunos proveedores de nube tienen esta caracteristica
+
+Saas = Este modelo ofrece un producto completo cuya ejecucion y administracion corre a cargo del proveedor del servicio en cuestion en la mayoria de los casos, cuando alguien habla de software como servicio se refiere a las aplicaciones de usuario final con este modelo ya no tienes que preocuparte por el 
+       mantenimiento, ni del servicio ni de la infraestructura subyacente, lo unico que te tienes que preocupar o lo que tienes que pensar es en como usaras tu o tu organizacion, el software en completo. Un ejemplo común de esto es el correo electronico o basado en la web.
 
 
+Al seleccionar un tipo de despliegue en la nube, la empresa debe tener en cuenta los factores necesarios en la nube, como las herramientas de gestion de recursos preferidos y los requisitos de infraestructura de TI heredado. surgiendo asi 3 tipos de modelo.
+
+nube
+On-premises
+hibrido
+
+Modelo de implementacion en la nube -> una aplicacion desplegada en la nube es una aplicacion cuyo componente en su totalidad residen por completo en la nube, las aplicaciones basadas en la nube han sido creadas desde 0 para ser implementada en este ambiente o simplemente son migradas
+                                    de implementacion locales, de forma de aprovechar mucho mejor los beneficios.
+
+Modelo de implementacion local     -> En este modelo los recursos se implementan en las instalaciones de la empresa, mediante modelos de virtualizacion y administracion de recursos, por ejemplo puedes que tengas aplicaciones que se ejecutan con tecnologias que se encuentran en tu centro de dato en las instalaciones
+                                      aunque este modelo se parece mucho a la de TI heredada, su proceso de admistacion de aplicaciones ayuda a aumentar la utilizacion de los recursos
+
+Modelo de implementacion hibrido   -> En una implementacion hibrida, los recursos basados en la nube, se conectan a la infraestructura, puede utilizar este metodo en diversas situaciones por ejemplo tienes proyectos heredados que se mantienen mejores en  las instalaciones de manera de restringir sus datos
+                                      AWS ofrece herramientas que permiten que este modelo de implementacion se ejecute de manera fácil y rápida, y es hasta cierto punto el primer paso para una migracion completa hacia un ambiente basado completamente en la nube.
 
 
-
+                                      
 
 
 
