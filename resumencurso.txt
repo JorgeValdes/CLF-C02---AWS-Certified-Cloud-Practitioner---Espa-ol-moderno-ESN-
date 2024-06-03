@@ -89,7 +89,104 @@ Modelo de implementacion hibrido   -> En una implementacion hibrida, los recurso
                                       AWS ofrece herramientas que permiten que este modelo de implementacion se ejecute de manera fácil y rápida, y es hasta cierto punto el primer paso para una migracion completa hacia un ambiente basado completamente en la nube.
 
 
-                                      
+Principios de diseñom de la computacion en la nube
+
+para armar en base a un buen sistema de diseño de software AWS ofrece un servicio llamado Well-architected Framework el cual ayuda a los arquitectos y desarrolladores de la nuve a crear una infraestructura segura 
+de alto rendimiento , resiliente y eficiente para una variedad de aplicaciones y cargas de trabajo, esta creado entorno a 6 pilares las cuales de ellas son
+
+Excelencia Operativa
+Seguridad 
+Fiabilidad
+eficiencia del rendimiento
+Optimizacion de costos
+Sostenibilidad
+
+veamos que son cada uno de los pilares, son objetivo para la prueba de AWS.
+
+Excelencia Operativa -> es la capacidad de utilizar y supervisar sistemas para ofrecer valor empresarial y mejorar continuamente los procesos y procedimientos de soporte. Los principios de diseño para 
+                        la Excelencia operativa en la nube incluyen realizar operaciones como crear codigo, anotar documentacion, anticipar errores y realizar cambios pequeños y reversibles con frecuencia.
+
+
+Seguridad            -> es capaz de proteger la informacion, los sistemas y los activos y, al mismo tiempo, ofrecer valor empresarial mediante evaluaciones de riesgos y estrategias de mitigacion.
+                        Al considerar la seguridad de tu arquitectura, aplica las siguientes practicas recomendadas: Automatiza las practicas recomendadas de seguridad siempre que sea posible, aplica la seguridad
+                        en todas las capas, protege los datos en transito y en reposo.
+
+
+Fiabilidad           -> es la capacidad de un sistema para hacer lo siguiente: Recuperarse de las interrupciones de la infraestructura o del servicio, adquirir recursos informaticos en forma dinamica para satisfacer la demanda,
+                        mitigar interrupciones como configuraciones erróneas o problemas transitorios de red. El pilar de Fiabilidad implica pruebas de procedimientos de recuperacion, escalado horizontal para aumentar la disponibilidad
+                        agregada del sistema y recuperacion automatica ante errores
+
+eficiencia del rendimiento -> es la capacidad de utilizar de computacion de forma eficiente para satisfacer losm requisitos del sistema y mantener esa eficiencia a medida que la demanda cambia y evoluciona la tecnologia.
+                              La evaluacion de rendimiento de la arquictura incluye experimentar con mas frecuencia, utilizar arquitecturas sin servidor y diseñar sistemas para poder globalizarse en cuestion de minutos.
+
+Optimizacion de costos -> es la capacidad de utilizar sistemas para ofrecer valor empresarial al precio mas bajo. la optimizacion de costos incluye la adopcion de un modelo de consumo, el analisis y la atribucion de inversiones
+                          y el uso de Managed Services para reducir el coste de la propiedad
+
+Sostenibilidad        -> se centra en minimizar los impactos ambientales de ejecutar cargas de trabajo en la nube. Entre los temas clave se incluyen un modelo de responsabilidad compartida para la Sostenibilidad, la comprension
+                         del impacto y la maximizacion del uso para minimizar los recursos necesarios y reducir los impactos posteriores
+
+
+AWS CLOUD Adoption Framework (AWS CAF) -> es creado para tu empresa para que migre de forma rapida y fluida en general estan distribuidas por 6 perspectivas
+
+negocios
+personas
+gobierno
+
+estas 3 mencionadas se centran en las capacidades empresariables, mientras que las perspectivas
+
+Plataforma
+Seguridad
+Operaciones
+
+estas 3 se centran en las capacidades tecnicas. veremos cada una de ellas.
+
+Negocio : garantiza que las TI se alinean con las necesidades empresariables y que las inversiones de TI se vinculan a los resultados empresariables clave. Utiliza la perspectiva de negocios para crear un casos
+empresarial solido de adopcion de la nube y prioriza las iniciativas de adopcion. Asegurate de que las estrategias y objetivos empresariales se alinean con los de TI. en esta perspectiva es comun encontrar estos roles:
+
+Gestion de estrategias           -> Aproveche la nube para acelerar los resultados de su empresa
+Gestion del portafolio           -> Priorice la entrega de iniciativas y productos en la nube de alto valor.
+Gestion de la innovacion         -> Aproveche la nube para desarrollar procesos, productos y experencias nuevos y para mejorar los existentes
+Gestion de productos             -> Administre datos y ofertas habilitados para la nube como productos
+Asociacion estrategica           -> Cree o desarrolle su empresa a traves de una asociacion estrategica con su proveedor de servicios en la nube
+Monetizacion de datos            -> Aproveche los datos para obtener beneficios empresariales mensurables.
+Informacion empresarial          -> Obtenga observaciones en tiempo real y responda las preguntas referidas a su empresa
+Ciencia de datos                 -> Aproveche el analisis avanzado y el machine learning para resolver problemas empresariales complejos
+
+Personas : apoya el desarrollo de una estrategia de administracion de cambio en toda la organizacion para cambiar a la nube con exito
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
