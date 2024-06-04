@@ -152,42 +152,84 @@ Monetizacion de datos            -> Aproveche los datos para obtener beneficios 
 Informacion empresarial          -> Obtenga observaciones en tiempo real y responda las preguntas referidas a su empresa
 Ciencia de datos                 -> Aproveche el analisis avanzado y el machine learning para resolver problemas empresariales complejos
 
-Personas : apoya el desarrollo de una estrategia de administracion de cambio en toda la organizacion para cambiar a la nube con exito
+Personas : apoya el desarrollo de una estrategia de administracion de cambio en toda la organizacion para cambiar a la nube con exito, por un ejemplo una empresa puede adoptar buenas practicas para apoyarlos en el crecimiento de la nube
+
+Evolucion de la cultura      : desarrolle de forma progesiva y codofique la cultura organizacional con aspiraciones de transformacion digital
+Liderazgo transformacional   : Fortaleza la capacidad de liderazgo y movilice a los lideres para impulsar el cambio transformacional
+Fluidfez en la nube          : cree una vision digital para aprovechar la nube con confianza y eficacia con el fin de acelerar los resultados empresariales
+transformacion del personal  : capacite a las personas y modernice los roles para atraer, desarrollar y retener un personal con notables conocimientos digitales y de otro rendimiento
+Aceleracion del cambio       : acelere la adopcion de las nuevas formas de trabajo con la aplicacion de un marco de aceleracion de cambios mediante programacion
+Diseño organizacional        : evalue y desarrolle el diseño de la organizacion para alinearlo con las nuevas formas de trabajo en la nube
+Alineamiento organizacional  : establezca una asociacion continua entre las estructuras de la organizacion las opreaciones empresariales el talento y la cultura
+ 
+
+gobierno : se centre en las habilidades y los procesos para alinear la estrategia de TI con la estrategia empresarial, esto garantiza que maximiza el valor empresarial y minimiza los riesgos
+
+Plataforma : principios y patrones para implementar nuevas soluciones en la nube y migrar cargas de trabajo de las instalaciones en la nube. migracion de cargas de trabajo en la nube
+
+Seguridad : garantiza que la organizacion cumpla con los obejtivos de seguridad de visibilidad, auditabilidad, control y agilidad. Utiliza AWS CAF para estructurar la seleccion e implementacion de controles de seguridad
+            que satisfagan las necesidades de la organizacion
+
+Operaciones : ayuda a habilitar, lanzar, utilizar, operar y recuperar cargas de trabajo de TI a nivel acordado con los inversores del negocio.
 
 
+Una de las ventajas al obtener AWS es la alta disponibilidad, hablemos primero que significa disponibilidad, la disponibilidad la podemos definir como la capacidad que tiene un sistema para que este disponible en cualquier momento
+que sea necesario, es un trabajo de calidad en el sistema, es una propiedad medible nos puede indicar que tanto satisface a los usuarios finales
+generalmente se mide en porcentaje
+
+para lograr una alta disponibilidad, debemos utilizar unas ciertas tecnologias para llevar a practica nuestras aplicaciones.eliminar los flujos de fallo dentro de nuestra aplicacion
 
 
+Escabilidad y Elasticidad
+
+La escabilidad es la capacidad de un sistema de crecer y adaptarse a las necesidades de los usuarios. Habitualmente, la escabilidad se vincula al crecimiento de los recursos de un sistema ante un incremento en la demanda de los 
+mismos, evitando la saturacion.
+
+existen 2 tipos de escabilidad
+
+Escabilidad Vertical (scale up)
+Escabilidad horizontal (scale out)
+
+El escalamiento vertical consiste en agregar recursos a un solo nodo, aumentando su capacidad, esto puede ser aumentado la memoria RAM del servidor, agregar discos duros de mayor capacidad, cambiar de CPU o incluso cambiar todo el 
+servidor por uno de mas capacidad.
+
+el escalamiento horizontal consiste en agregar mas nodos adicionales para adaptarse a la carga de trabajo. Si la aplicacion o el sistema están llegando a su punto critico, entonces se agregan nodos adicionales y se divide la carga
+entre los distintos nodos.
+
+Problemas del Escalamiento Estatico -> hace referencia a la infraestructura on-premises las cuales meciona el uso de hardware y software para las aplicaciones respectivas sucede que a lo largo del tiempo estas
+cargas de trabajo varian, utilizando mas o menos la infraestructura ya implementada. con la llegada del computo en la nube estos problemas son del pasado con la Elasticidad.
+
+Elasticidad hace referencia a la capacidad de los servicios en la nube de entregar o eliminar recursos autmaticamente con el fin de proporcionar la cantidad justa de activos para cada proyecto
+
+*Estirar y retraer su infraestructura en funcion de la demanda
+*Le permite pagar sobre la marcha/ pay as you go
+*Usado tipicamente durante un corto periodo de tiempo, horas o dias
+
+Tolerancia a fallos y recuperacion de desastres
+
+La habilidad que tiene un sistema para continuar operando, pese al fallo de uno de sus componente.
+
+la Tolerancia a los fallos describe un nivel superior de disponibilidad caracterizado por un tiempo de funcionamiento de 5 nueves. los sistemas con Toleranciaa los fallos son capaces de ofrecer estos niveles
+de disponibilidad porque pueden "tolererar" o soportar tantos los "fallos" como las fallas de hardware y el software
+
+hardware -> podemos utilizar maquinas parecidas para hacerlas rebundates
+software -> podemos hacer el uso de replicacion de datos,por ejemplo para la caida de una base de datos podemos usar otra
+infraestructura base de centro de datos -> existe nociones tolerancia a fallos
+
+La recuperacion de desastres en la nube , es una estrategia de respaldo y restauracion que consiste en almacenar y mantener copias de registros electronicos en un entorno de computacion en la nube como medida de seguridad.
+el objetivo del DR en la nube es proporcionar a una organizacion una forma de recuperar datos y/o implementar conmutación por error en el caso de una catastrofe natuiral o provocada por el hombre"
 
 
+Plan para recuperar la informacion y sistemas despues de un evento catastrófico
+restauracion de opreaciones normales
 
+agilidad del computo en la nube
 
+es una tecnologia que a impactado positibamente en la linea de negocio
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+se refiere a la capacidad de acceder rapidamente a una amplia gama de tecnologia y recursos informaticos para innovar y crear soluciones con mayor rapidez.
+con la nube puedes activar recrusos rapidamente a medida que los necesites, desde servicios de infraestructura como computo, almacenamiento y bases de datos, hasta internet de las cosas
+aprendizae automatico, lagos de datos y analisis entre otros. de esta forma, obtienes la libertadad necesaria para probar ideas neuvas que marquen una diferencia en las experencias de los clientes y transformen tu negocio
 
 
 
