@@ -31,7 +31,7 @@ la entrega bajo demanda hace referencia a que un proveedor de nube tiene los rec
 servidores, redes, almacenamiento, herramientas de desarrollo y aplicaciones
 pague solo por lo que necesita y cuando lo necesite.
 
-Ventajas de la computacion en la nube
+*Ventajas de la computacion en la nube
 
 las Ventajas de la conexion en la nube comprende de 6 ventajas definido por AWS
 
@@ -55,7 +55,7 @@ te permite concetrate en tus propios clientes en lugar del trabajo pesado
 6.Globalizate en minutos
 La presencia global de la nube permite implementar aplicaciones a clientes de todo el mundo rapidamente
 
-Modelos de Computacion en la nube
+*Modelos de Computacion en la nube
 
 respuesta a necesidad de distintos perfiles de usuario
 
@@ -89,7 +89,7 @@ Modelo de implementacion hibrido   -> En una implementacion hibrida, los recurso
                                       AWS ofrece herramientas que permiten que este modelo de implementacion se ejecute de manera fácil y rápida, y es hasta cierto punto el primer paso para una migracion completa hacia un ambiente basado completamente en la nube.
 
 
-Principios de diseñom de la computacion en la nube
+*Principios de diseñom de la computacion en la nube
 
 para armar en base a un buen sistema de diseño de software AWS ofrece un servicio llamado Well-architected Framework el cual ayuda a los arquitectos y desarrolladores de la nuve a crear una infraestructura segura 
 de alto rendimiento , resiliente y eficiente para una variedad de aplicaciones y cargas de trabajo, esta creado entorno a 6 pilares las cuales de ellas son
@@ -126,7 +126,7 @@ Sostenibilidad        -> se centra en minimizar los impactos ambientales de ejec
                          del impacto y la maximizacion del uso para minimizar los recursos necesarios y reducir los impactos posteriores
 
 
-AWS CLOUD Adoption Framework (AWS CAF) -> es creado para tu empresa para que migre de forma rapida y fluida en general estan distribuidas por 6 perspectivas
+*AWS CLOUD Adoption Framework (AWS CAF) -> es creado para tu empresa para que migre de forma rapida y fluida en general estan distribuidas por 6 perspectivas
 
 negocios
 personas
@@ -180,7 +180,7 @@ generalmente se mide en porcentaje
 para lograr una alta disponibilidad, debemos utilizar unas ciertas tecnologias para llevar a practica nuestras aplicaciones.eliminar los flujos de fallo dentro de nuestra aplicacion
 
 
-Escabilidad y Elasticidad
+*Escabilidad y Elasticidad
 
 La escabilidad es la capacidad de un sistema de crecer y adaptarse a las necesidades de los usuarios. Habitualmente, la escabilidad se vincula al crecimiento de los recursos de un sistema ante un incremento en la demanda de los 
 mismos, evitando la saturacion.
@@ -205,7 +205,7 @@ Elasticidad hace referencia a la capacidad de los servicios en la nube de entreg
 *Le permite pagar sobre la marcha/ pay as you go
 *Usado tipicamente durante un corto periodo de tiempo, horas o dias
 
-Tolerancia a fallos y recuperacion de desastres
+*Tolerancia a fallos y recuperacion de desastres
 
 La habilidad que tiene un sistema para continuar operando, pese al fallo de uno de sus componente.
 
@@ -230,6 +230,100 @@ es una tecnologia que a impactado positibamente en la linea de negocio
 se refiere a la capacidad de acceder rapidamente a una amplia gama de tecnologia y recursos informaticos para innovar y crear soluciones con mayor rapidez.
 con la nube puedes activar recrusos rapidamente a medida que los necesites, desde servicios de infraestructura como computo, almacenamiento y bases de datos, hasta internet de las cosas
 aprendizae automatico, lagos de datos y analisis entre otros. de esta forma, obtienes la libertadad necesaria para probar ideas neuvas que marquen una diferencia en las experencias de los clientes y transformen tu negocio
+
+*Comprension de las economias de escala
+
+cuando hablamos de economias de escala, nos referimmos primeramente a la del proveedor, a que debido al gran numero de clientes que espera, puede permitirse ajustar bastante los precios en los servidores que ofrece
+habilidad de hacer las cosas mas eficientemente
+
+Habilidad de hacer las cosas mas eficientemente
+cuantos mas compras algo, menos cuesta
+beneficia a los clientes finales
+
+*Gastos de capital CapEX vs Gastos Operativos Opex
+
+CapEX se define como los gatos comerciales incurridos para crear beneficios a largo plazo en el futuro, como la compre de activos fijos como un edificio o equipo. Algunos ejemplos de elementos de TI que entran en esta 
+categoria serian sistemas y servidores completos, impresoras y escáneres o acondicionadores y generadores de aire. Usted compra estos articulos una vez y beneficia a su negocio durante muchos , muchos años. El mantenimiento
+de dichos articulos tambien se considera CapEX, ya que extiende su vida util y utilidad.
+
+este concepto se llama Capital Expenditure (CapEX)
+Inversion de capital para el correcto desarrollo de las actividades
+gastor para obtener un beneficio en el futuro
+requiere calcular la duracion
+dificil para nuestras empresas y/o startups
+
+
+*Modelo de facturacion basado en consumo
+
+en Cloud Computing, el paso por uso es la forma habitual de pago por usar servicios en la nube. Solo pagas por el consumo real de los recursos en la nube que tengas contratados, por ejemplo uso de CPU, Mb de transferencia
+almacenamiento en disco, etc.
+
+
+Pague por lo que use      -> el pago por uso le permite adaptarse con facilidad a las cambiantes necesidades de la empresa sin comprometerse a dedicar presupuestos excesivos y, ademas mejorar la capacidad de respuesta ante los cambios
+
+Sin gastos por adelantado -> puedes utilizar instancias bajo demanda de amanazon EC2 que te permiten pagar por la capacidad de computacion por horas o segundos sin compromisos a largo plazo. Esto significa que no tienes que preocuparte por los costos y las complejidades de la planificacion, la compra y el mantenimiento del equipo.
+
+Deja de usar en cualquier momento -> Puedes dejar de usar sus servicios en cualquier momento sin penalizacion. No hay contratos a largo plazo ni cargos por cancelacion. Puedes experimentar y probar diferentes soluciones sin preocuparte por los costos a largo plazo. Si encuentras que un servicio no satisface tus necesidades, simplemente puedes dejar de usarlo y no tendrás que pagar más por el.
+
+*Estrategias de licencias - Modelo BYOL vs Licencias incluidas
+
+las estrategias de licencia hace referencia a las diferentes formas que las empresas pueden adquirir licencias de software, para ello existen 2 modelos de licencia
+
+BYOL -> traiga su licencia y licencias incluidas, para este caso las empresas traen su propias licencias de software a una plataforma en la nube, en este caso, AWS.
+
+En el modelo de licencias incluidas, la plataforma en la nube proporciona licencias de software completamente compatibles como parte del servicio. esto significa que las empresas no tienen que preocuparse por adquirir o administrar
+las licencias de software por separado, ya que estan incluidas en el precio del servicio.
+
+AWS ofrece estos 2 modelos de licencia
+
+*Infraestructura global de AWS
+
+AWS datacenter -> es una instalacion fisica que alberga los servidores y otros equipos de computacion que se utilizan para proporcionar los servicios en la nube de AWS. Los centros de datos de AWS están diseñados para proporcionar 
+seguridad, disponibilidad y rendimiento optimo para los servicios en la nube de AWS.
+
+Cuando se utilizan los servicios de AWS, los recursos se implementan en centros de datos ubicados en diferentes regiones geograficas. Cada region de AWS consta de multiples zonas de disponibilidad y cada zona de disponibilidad
+puede tener uno o mas centros de datos.Cuando se crea un recurso en AWS, se debe seleccionar una region en la que se implementara el recurso. Sin embargo, no es posible elegir un centro de datos especifico dentro de una zona de disponibilidad para implementar el recurso. AWS gestiona la asignacion de recursos a centros de datos especificos para garantizar la alta disponibilidad y el rendimiento optimno.
+
+Infraestructura global de AWS -> Regiones y Zonas de disponibilidad (AZ)
+
+sabemos que la infraestructura de AWS esta ubicada fisicamente en el mundo por Regiones y zonas de disponibilidad.
+Cada region se ha diseñado paara que este totalmente aislada de las demas regiones. Con ello se consigue la mejor tolerancia a errores y estabilidad posibles.
+
+Las zonas de disponibilidad(AZ) constan de uno o varias centros de datos discretos, cada uno de ellos con alimentacion, redes y conectividad redundantes que se alojan en las instalaciones independientes.
+Estas zonas de disponibilidad ofrecen la capacidad de operar bases de datos y aplicaciones de produccion con una disponibilidad, tolerancia a errores y escabilidad mucho mayores que las que ofreceria un centro de datos
+único. En el examen si o si van a preguntar cuantas zonas de disponibilidad tiene una region siendo la resputa correcta 3 zonas de disponibilidad.
+Tenga en cuenta esta informacion
+
+las zonas de disponibilidad estan representadas por un codigo de region segudido de una letra : 
+algunos ejemplos
+
+us-east-1a
+us-east-1b
+us-east-1c
+
+En resumen, las regiones de AWS son ubicaciones geograficas donde se encuentran las infraestructura de AWS. Cda region de AWS consta de un minimo de 3 zonas de disponibilidad que son ubicaciones aisladas y fisicamente separadas dentro
+de una area geografica. Las zonas de disponibilidad (AZ) por otra parte, son centros de datos independientes con energia, enfriamiento y seguridad fisica redundantes, y estan conectadas a traves de redes redundantes y de ultra baja latencia.
+
+*Zonas locales
+
+Una zona local es una extension de una region de AWS que se encuentra geograficamente cerca de los usuarios. Las zonas locales tienen sus propias conexines a internet y son compatibles con AWS Direct Connect, por lo que los recursos creados
+en una zona local pueden brindar a los usuarios locales comunicaciones de baja latencia.
+
+El codigo de una zona local es el codigo de su region seguido de un identificador que indica su ubicacio fisica. Por ejemplo, us-east-1-atl-1 en Atlanta
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
