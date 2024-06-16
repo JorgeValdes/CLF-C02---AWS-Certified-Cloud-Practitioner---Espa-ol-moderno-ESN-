@@ -311,32 +311,140 @@ en una zona local pueden brindar a los usuarios locales comunicaciones de baja l
 
 El codigo de una zona local es el codigo de su region seguido de un identificador que indica su ubicacio fisica. Por ejemplo, us-east-1-atl-1 en Atlanta
 
+*Infraestructura global de AWS (Edge lolcations y Pop)
+
+Infraestructura global de AWS estan conectadas a las regiones de AWS a través de la red de AWS en todo el mundo. Se enlazan con decenas de miles de redes para mejorar la recuperacion de origen y acelerar el contenido de forma
+dinamica. Las ubicaciones de borde almacenan en caché de su contenido para una entrega más rápida a los usuarios en cualquier ubicacion. AWS tiene como recursos mucho ubicaciones de borde
+como son Amazon CloudFront, Edge location
+
+*Planificacion de errores
+
+Al construir su infraestructura en la nube, desea tener un plan para cualquier error que quiera producirse, por lo tanto es importante planificar estos errores. Al crear su arquictectura, desea tener un plan para resolver
+cualquier error que pueda producirse.
+
+almacenamiento : cuando se almacena un archivo en Amazon S3, el archivo se copia de forma redundante en todas las zonas de disponibilidad de esa region. Si una zona de disponibilidad deja de funcionar, sigue teniendo dos copias de ese 
+                 archivo disponible para su uso.
+
+computo        : se recomienda distribuir los recursos informaticos en varias zonas de disponibilidad para garantizar una alta disponibilidad. Por lo tanto, si una zona de disponibilidad deja de funcionar, su arquitectura sigue funcionando.
+
+Base de datos  : puede configurar la base de datos para la implementacion Multi-AZ. Si falla la zona de disponibilidad con la base de datos principal, una de las bases de datos en espera de una zona de disponibilidad en buen estado
+                 se convierte automaticamente en su nueva base de datos principal. Por lo tanto, su arquitectura sigue funcionando.
+
+Servicios principales de AWS
+
+AWS ofrece distintos tipos de servicios, permitiendo crear arquitecturas elasticas resistentes.
+dentro de los servicios de AWS, se pueden dividir en 3 tipos de servicios
+
+Servicios administrados
+Servicios completamente administrados
+Servicios con tecnologias completamente administrados
+
+Servicios administrados -> es una forma de describir los servicios que requieren tu administracion de tareas de administracion de la infraestructura, como la aplicacion de parches , las copias de seguridad y la reparacion. Estos servicios le otorgan acceso virtual al sistema operativo y
+                           a los servidores subyacentes. Con los servicios administrados, usted es responsable de escalar y crear para lograr una alta disponibilidad.
+
+Servicios complemtante administrados AWS -> son aquellos de una forma de describir los servicios que automatizan las tareas de administracion de infraestructuras que gestiona AWS, como la aplicacion de parches, copias de seguridad y reparacion. Estos servicios no lo conceden acceso virtual
+                                            al sistema operativo ni a los servidores subyacentes.Con un servicio totalmente administrado, usted sigue siendo responsable de escalar y crear para lograr una alta disponibilidad.
+
+Servicios con tecnologias completamente administrados -> la tecnologia sin servidor es una forma de describir los servicios, practicas y estrategias que usted puede usar para crear aplicaciones más ágiles. De esta forma podra innnovar y responder al cambio mas rapidamente.
+                                            Con los servicios con tecnologias sin servidor, AWS se encarga de las tareas de administracion de la infraestructura, como el aprovisionamiento de capacidad y la aplicacion de parches, para que usted pueda centrarse en crear aplicaciones             
+                                            que sirvan a sus clientes. Los servicios con tecnologias sin servidor incluyen escalado automatico, alta disponibilidad integrada y un modelo de facturacion de pago por valor.
+                                            
+
+*Capa Gratuitda de AWS
+
+el nivel gratuito de la prueba de AWS consta de 3 tipos de oferta 
+
+12 meese gratis, siempre gratis , periodos de pruebas de productos
+
+en todas estas instancias o ofertas tiene una base de hasta alcanzar el m limite especificado, se le cobrara por utilizar otros tamaños de instancia a las tarifas normales.
+
+*Explorando los datos de AWS
+
+Dominio 1 consejos y recursos para el examen
+conceptos esencial
+
+Computacion en la nube : La informatica o computacion en la nube es la entrega bajo demanda de recursos de TI a traves de internet con precios de pago por uso.
+Beneficios/Ventajas de la computacion en la nube : La computacion en la nube ofrece beneficios, como la reduccion de costos, la flexibilidad, la escabilidad y la accesibilidad.
+Tambien permite a las empresas implementar y probar rapidamente nuevas aplicaciones y servicios
+
+Beneficios/Ventajas de la computacion en la nube : la computacion en la nube ofrece numerosos beneficios, como la reduccion de costos, la flexibilidad, la escabilidad y la accesibilidad. Tambien permite a las empresas implementar
+y probar rapidamente nuevas aplicaciones y servicios.
+
+Modelos de Computacion en la Nube : Los modelos de Iaas (infraestructura como servicio), PaaS (plataforma como servicio) y SaaS (software como servicio).
+
+Modelos de implementacion en la nube : estos incluyen la nube publica, privada e hibrida
+Metodo de Memorizacion : SIP PH (SIP = SaaS Iaas PaaS) y PHO= (Publico - Hibrido - On-premises)
+
+Principios de diseño en la computacion en la nube (AWS Well-architected Framework) marco que proporciona pautas para diseñar sistemas eficientes, seguros y confiables en la nube. Tambien aprende los 6 pilares :
+
+Excelencia operativa
+Seguridad
+Confiabilidad
+Eficiencia de rendimiento
+Optimizacion de costos
+Sostenibilidad
+
+AWS CAF : proporciona estrategias para implementar y adoptar la nube de manera efectiva en una organizacion
+Alta disponibilidad : Garantiza que las aplicaciones esten siempre disponibles y funcionando correctamente
+Escabilidad y elasticidad del computo en la nube : Capacidad de aumentar o reducir los recursos segun la demanda
+Tolerancia a fallos y recuperacion de desastres : La tolerancia a fallos se refiere a la capacidad de un sistema para seguir funcionando incluso si uno o mas componentes fallan. La recuperacion de desastres se refiere a la capacidad de un sistema para Recuperarse
+                                                  rapidamente despues de un desastre.
+
+Agilidad del computo en la nube : es la capacidad de un sistema para adaptarse rapidamente a cambios en el entorno
+Economias de Escala             : reduccion de costos que se logra al aumentar el volumen de produccion. En el contexto del computo en la nube, esto significa que cuanto mas use una empresa los servicios en la nube, mas podra ahorrar en costos
 
 
+Modelo de facturacion basado en consumo : Modelo en el que los usuarios pagan solo por lo que usan
 
+Estrategias de Licencia, Modelos BYOL vs licencias incluidas : El modelo BYOL permite a los usuarios utilizar sus propias licencias de software en la nube. Modelo de licencias incluidas son licencias proporcionadas por el proveedor de servicios en la nube
 
+Capag gratuita de AWS : te permite probar y utilizar algunos servicios de AWS sin costo. (12 meses gratis, siempre gratis y pruebas)
+Infraestructura global de AWS : AWS tiene una infraestructura global que incluye regiones, zonas de disponibilidad, local zones y edge locations o ubicaciones de borde.
 
+Seguridad y Conformidad
 
-ñ
+Seguridad en la nube
 
+La seguridad en la nube, es la proteccion de los datos, las aplicaciones y las infraestructuras relacionados con los servicios de la nube y el Cloud Computing. Muchos aspectos de la seguridad de los entornos en la nube,
+ya sea publica, privada o hibrida, son los mismos que los de cualquier arquitectura local de TI. Los problemas de seguridad de alto nivel con respecto a la tecnologia de la informacion (TI), como la exposicion o la filtracion
+de datos no autorizada, los controles de acceso vulnerables, la propension a los ataques y las interrupciones de la disponibilidad, afectan a los sistemas tradicionales de TI y de nube por igual.
 
+AWS esta diseñado para ser el entorno de informatica en la nube mas flexible y seguro disponible en la actualidad. La infraestructura principal se creo para cumplir con los requisitos de seguridad del ejercito, los bancos
+internacionales y otras organizaciones que deben cumplir requisitos de confidencialidad estrictos. Cuenta con el respaldo de un amplio conjunto de herramientas de seguridad en la nube, con mas de 300 servicios y caracteristicas de seguridad
+conformidad y gobernanza.
 
+Modelo de responsabilidad compartida
 
+La seguridad de las infraestructuras y los datos de la computacion en la nube, es una responsabilidad compartida entre el cliente y AWS.
+En el desglose mas basico AWS es responsable de proteger la infraestructura global que ejecuta todos los servicios ofrecidos en la nube de AWS, Esta infraestructura
+comprende el hardware, el software, las redes y las instlaciones que ejecutan los servicios de AWS.
 
+Los clientes son responsables por su seguridad en la nube, aws es responsable por la seguridad de la nube
 
+Principios de diseño para la seguridad
 
+Implementar una solida base de identidades : Una cultura ed seguridad debe basarse en los principios de privilegio minimo y la auntenticacion solida. Conceda acceso a datos y otros recursos solo a las Personas
+que realmente lo necesiten. Puede comenzar por denegar el acceso a todo y otorgando acceso segun sea necesario en funcion de los roles de trabajo.
 
+Habilitar la trazabilidad : Con aws, puede monitorear, alertar y auditar acciones y cambios en tiempo real en su entorno. AWS proporciona registros nativos y servicios que puede aprovechar para dar mayor visibilidad casi en tiempo
+real de los acontecimientos en su entorno.
 
+Aplicar la seguridad en todas las capas : En lugar de centrarse en la proteccion de una sola capa exterior, aplique un enfoque de defensa en profundidad con otros controles de seguridad. Este enfoque implica aplicar seguridad a todas las capas
+                                          , como la red, la aplicacion y el almacen de datos.Por ejemplo, puede requerir que los usuarios se autentiquen de manera solida en una sola aplicacion.
 
+Automatizar las practicas recomendadas de seguridad : AWS ofrece herramientas de seguridad diseñadas especificamente para automatizar mucha de las tareas que suelen realizar los expertos en seguridad. Las funciones de ingenieria y operaciones de seguridad
+                                                      se pueden automatizar con un conjunto completo de interfaces de programacion de aplicaciones (API) y herramientas.
 
+Proteger los datos en transito y en reposo : La proteccion de los datos es una parte fundamental de la creacion y operacion de los sistemas de informacion. AWS proporciona servicios y caracteristicas que ofrecen varias opciones de proteccion de datos en reposo y en transito. Estas opciones
+incluyen controles de acceso detallados a objetos, creacion y control de las claves de cifrado utilizadas para cifrar los datos, la seleccion de los métodos de cifrado adecuados, la validacion de la integridad y la retencion adecuada de los datos.
 
+Minimizar la superficie de ataque : generalmente, un ataque cibernetico termina por una de dos razones: los atacantes se agotan y se dan porvencidos o los atacantes alcanzan su objetivo. preparese para escalar y absorver el ataque y minimizar
+                                    o eliminar la posibilidad de un dispositivo sin proteccion.
 
+Preparese para eventos de seguridad : incluse con la detecciond de maduros, se debe implementar procesos para respoder el potencial impacto de incidentes de seguridad y mitigarlos. disponga de las herramientas y el acceso antes de que se produzca un incidentes
+                                      de seguridad.
 
-
-
-
-
-
+Pilar de la seguridad
 
 
 
