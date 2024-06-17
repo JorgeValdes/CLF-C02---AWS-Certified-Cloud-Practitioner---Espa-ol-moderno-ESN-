@@ -446,6 +446,156 @@ Preparese para eventos de seguridad : incluse con la detecciond de maduros, se d
 
 Pilar de la seguridad
 
+AWS ha desarrllado los 6 pilares, para la construccion de una infraestructura de TI mas segura, duradera, eficiente y de alto rendimiento posible
+
+Excelencia Operativa
+Seguridad
+Fiabilidad
+Eficiencia del rendimiento
+Optimizacion de costos
+Sostenibilidad
+
+Pilar de seguridad -> hay 6 areas de seguridad recomendadas para la seguridad en la nube las cuales son
+Seguridad
+Gestion de identidad y accesos
+detecciond
+Proteccion  de la infraestructura
+Proteccion de los datos
+Respuesta a frente a incidencias
+
+Seguridad -> se enfoca en establecer mecanismos que ayuden a proteger los sistemas, los datos y los activos. Para utilizar la carga de trabajo de forma segurda, se debe adoptar practicas recomendadas globales en cada area
+             de seguridad. Un ejemplo de esto seria el uso de firewalls y sistemas de deteccion de instrucciones para proteger la infraestructura en la nube.
+
+Identidad y accesos : Esta area se enfoca en controlar quien puede acceder a los recursos en la nube y que acciones pueden realizar. La administracion de identidades y acceso representa una parte clave de un programa de seguridad
+                      de la informacion, ya que se garantiza que solo los usuarios y los componentes autorizados e identificados puedan acceder a sus recursos
+
+Deteccion -> se enfoca en detectar posibles amenanzas y actividades sospechosas en la nube. Puede usar los controles detectores para identificar una incidencia o amenaza potencial de seguridad. Son una parte fundamental de los marcos de gobernanza
+             y se pueden usar como complemento de procesos de calidad, para una obligacion leagl o de conformidad y para la identificacion de amenazas y respuesta.     
+
+Proteccion de la infraestructura : Esta area se enfoca en proteger la infraestructura subyacente que soporta los recursos en la nube. La proteccion de la infraestructura abarca las metodologias de control, como la defensa en profundidad
+                                   necesarias para ajustarse a las practicas recomendadas y las obligaciones organizivas o normativas
+
+
+Proteccion de los datos : Se enfoca en proteger los datos almacenados en la nube. Antes de diseñar un sistema, hay que apoptar practicas que influen en la seguridad. Por ejemplo, la clasificacion de datos ofrece una manera de categorizar
+                          los datos de la organizacion ségun los niveles de confidencialidad, mientras que el cifrado protege los datos haciendolos ilegibles para el acceso no autorizado.
+
+
+Resputa frente a incidencias : Se enfoca en respoder rapidamente a incidencias de seguridad en la nube. Incluso con controles detectores y de prevencion extremadament3e eficaces, la organizacion deberia continuar aplicando procesos para responder a incidencias
+                               de seguridad y mitigar su posible impacto. Si prepara las herramientas y el acceso en prevision de un incidente de seguridad, y practica periodicamente la respuesta a incidentes durante los dias de juego, se asegur     
+                               de su arquitectura posibilite una investigacion y una recuperacion sin demoras.
+
+
+Autenticacion frente a autorizacion
+
+La administracion de identidad y acceso son partes clave de un programa de seguridad de la informacion. Garantizan que solo los usarios autorizados y previamente autenticados pueden acceder a sus recursos y que solo lo hagan del modo esperado y permitido.
+mediante la administracion de identidades y acceso, se define quien tiene acceso a que recursos y se describe lo que se puede hacer con ellos.
+
+Autenticacion frente a la autorizacion
+
+Proteccion de credenciales
+
+Es importante que administre cuidadosamente las credenciales de acceso a los recursos de AWS. cada interaccion con AWS se autentica y asi, se genera una base de seguridad
+para establecer practicas de administracion de credenciales adecuadas para que solo los usuarios autenticados pueden realizar acciones en su cuenta.
+
+
+Autorizacion minuciosa
+
+Se debe establecer un principio de privilegios minimos para garantizar que solo los usuarios autenticados puedan realizar solo las funciones necesarias para completar una tarea especifica.
+Este principio limita el impacto potencial del uso inadecuado de los recursos.
+
+Algunos de estos servicios para AWS para la administracion de identidad y acceso.
+
+Amazon Cognito
+AWS directory Services
+AWS Identity and access managemetn
+AWS IAM Identity Center
+
+Principio de privilegio minimo
+
+Es un practica recomendada que establece a los usuarios o grupos, que se le deben permitir realizar el minimo conjunto de acciones necesarios para completar una tarea especifica.
+Con AWS IAM puedes definir que acciones puede realizar cada usuario y en que condiciones. Por ejemplo, las politicas basadas en la identidad se pueden adjuntar a grupos de IAM, mientras que los buckets
+de S3 se pueden controlar mediante politicas basadas en recursos.
+
+cumplimiento de la nube de AWS
+
+son cumplimientos generales para la nube de AWS, uno de eloos puede PCI DSS para la resolucion de tarjetas.
+otro de ellos puede ser el grupo de cumplimiento de seguridad de Data GDPR, aws ofrece herramientas y recursos para cumplir los standar.
+
+AWS IAM
+
+es un servicio web que le ayuda a controlar de forma segura el acceso a los recursos de AWS. Con aws iam, puede administrar de forma centralizada los permisos que controlan que recursos de AWS
+los usuarios pueden acceder. Utilice AWS IAM para controlar quien esta autenticado y autorizado para usar recursos.
+AWS se compone de usuarios, grupos, roles y politicas. Con IAM puede crear y administrar usuarios y grupos de AWS, asi ccomo establecer permisos para permitir o denegar el acceso a los recursos de AWS.
+Tambien pueden utilizar los roles y politicas para definir que usuarios pueden acceder a que recursos y servicios en AWS.
+
+
+Un usuario IAM es una entidad que se crea en AWS para representar a un usuario humano o una carga de trabajo que interactua con AWS. Un usuario en AWS consta de un nombre y credenciales. Pueden completar tareas y realizar solicitudes a los servicios
+de AWS utilizando la API o la AWS CLI. Cuando se crea un usario IAM, no tiene permisos por defectos.
+
+Una politica de IAM es una declaracion formal de los permisos que se conceden a una entidad. Las politicas pueden adjuntarse a cualquier entidad IAM como usuarios, grupos o roles. las politicas especifican cual es el efecto cuando el usuario
+solicita acceso a los recurso, que acciones estan permitidas y sobre que recrusos permitir las acciones.s
+
+Un grupo IAM es una coleccion de usuarios IAM. los grupos IAM ofrecen una forma practica de especificar permisos para un conjunto de usuarios, lo que puede facilitar la gestion de los permisos de dichos usuarios.
+
+Rol IAM es una entidad que puedes crear en tu cuenta y que tiene permisos especificos. Al igual que un usario o grupo, se adjunta una politica de IAM al rol para determinar lo que el rol puede y no puede hacer en su cuenta de AWS.
+Los roles de IAM pueden ser asumidas por un usuario de IAM
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
