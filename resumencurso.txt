@@ -538,7 +538,55 @@ solicita acceso a los recurso, que acciones estan permitidas y sobre que recruso
 Un grupo IAM es una coleccion de usuarios IAM. los grupos IAM ofrecen una forma practica de especificar permisos para un conjunto de usuarios, lo que puede facilitar la gestion de los permisos de dichos usuarios.
 
 Rol IAM es una entidad que puedes crear en tu cuenta y que tiene permisos especificos. Al igual que un usario o grupo, se adjunta una politica de IAM al rol para determinar lo que el rol puede y no puede hacer en su cuenta de AWS.
-Los roles de IAM pueden ser asumidas por un usuario de IAM
+Los roles de IAM pueden ser asumidas por un usuario de IAM, determina lo que la identidad puede o no hacer en aws.
+Sin embargo el rol no tiene credenciales, un rol no esta pensando para una sola persona sino para cualquiera que lo necesite a corto plazo.
+
+Usuarios, grupos , Roles y Politicas con AWS IAM
+
+dentro de esta cuenta tenemos estos diversos elementos
+
+Usuarios
+grupos
+roles
+politicas
+
+Un grupo es una forma de organizar a los usuarios, por lo tanto creamos un grupo podemos asignar usuarios a nuestro grupo. posteriormente podemos asignar permisos a estos grupos de usuarios lo que hacemos a traves de una politica
+Politica define la persona o usuarios de este grupo pueden hacer.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
