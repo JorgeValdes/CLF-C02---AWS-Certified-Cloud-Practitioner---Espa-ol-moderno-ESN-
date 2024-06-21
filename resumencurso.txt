@@ -553,15 +553,35 @@ politicas
 Un grupo es una forma de organizar a los usuarios, por lo tanto creamos un grupo podemos asignar usuarios a nuestro grupo. posteriormente podemos asignar permisos a estos grupos de usuarios lo que hacemos a traves de una politica
 Politica define la persona o usuarios de este grupo pueden hacer.
 
+Existen diferentes tipos de politicas, especificamente 6.
 
+politicas basada en identidad -> es la que se puede aplicar en usuarios, grupos y roles. pero antes de eso vamos a definir que es un rol
 
+un rol tiene un conjunto de permisos para realizar solicitudes de servicio de aws, los roles de IAM no estan asociados a ningun grupo ni usuario especifico sino que lo asumen entidades de confianza
 
+Estructura de una politica IAM
 
+La estructura en la politica de usuario es un json, el cual puede dar un efecto donde puede dar permisos para permitir o denegar.
 
+Effect, accion, resource, condicion -> documento json del usuario
 
+Introduccion - Servicios de Seguridad y cumplimiento
 
+AWS - organizations
 
+Es un servicio de administracion de cuentas que le permite consolidar varias cuentas de AWSa en una organizacion que cree y administre de forma centralizada.
+AWS organizacion incluye capacidades de administracion de cuentas y facturacion consolidad que le permite satisface mejor las necesidades presupuestarias, de seguridad y de conformidad de su negocio.
 
+caracteristica claves
+
+administracion centralizad en todas las cuentas de aws :  permite consolidad varias cuentas de aws en una sola organizacion.
+administracion de manera centralizada los costos y facturacion (facturacion unificada) : ofrece una sola factura consolidad o unificada agregados para las cuentas de la organizacion. puede ayudar a reducir esos costos.
+
+Unidades organizativas : En aws organizacion puede agrupar las cuentas en unidades organizativas para facilitar la administracion de cuentas con requisitos empresariales o de seguridad similares.
+al organizar cuentas separadas en unidaes organizativas, se puede aislar con mayor facilidad las cargas de trabajo o las aplicaciones que tienen requisitos de segurida especificas.
+
+Las politica de control de servicios : son un tipo de politica de organizacion que puedes utilizar para administrar permisoss en tu organizacion de AWS. las SCP te permiten establecer limites en los permisos disponibles para todas las cuentas
+de tu organizacion, ayudandote a garantizar que tus cuentas cumplan con las directrices de control de acceso en tu organizacion.
 
 
 
