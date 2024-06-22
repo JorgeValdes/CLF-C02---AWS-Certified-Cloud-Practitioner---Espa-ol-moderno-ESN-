@@ -583,33 +583,60 @@ al organizar cuentas separadas en unidaes organizativas, se puede aislar con may
 Las politica de control de servicios : son un tipo de politica de organizacion que puedes utilizar para administrar permisoss en tu organizacion de AWS. las SCP te permiten establecer limites en los permisos disponibles para todas las cuentas
 de tu organizacion, ayudandote a garantizar que tus cuentas cumplan con las directrices de control de acceso en tu organizacion.
 
+AWS Identity center
 
+Es un servicio de AWS que gestiona de forma centralizada el inicio de sesion unico para varias cuentas de AWS y aplicaciones en la nube
 
+Como se puede conectar a su servicio de la cuenta de AWS, lo primero es habilitar una cuenta de AWS identity center, seleccionar la fuente de la identidad
+luego puede administar de manera centralizada su permiso dentro de AWS, para gestionar permisos de forma centralizada, acceso de usuario con un solo clic
 
+Consolas de aws, cuentas de aws administradas en aws organizations, permisos administrar permisos para cuentas de AWS
 
+AWS Directory Service
 
+tambien conocido como AWS managed microsoft ad, es un servicio administrado que ofrece directorios que contienen informacion acerca de su organizacion, incluidos usuarios, grupos, equipos y otros recursos.
+Como solucion administrada, aws directory service esta diseñado para reducir las tareas de administracion, de modo que pueda dedicar mas tiempo y recursos a su negocio.
 
+Amazon cognito
 
+es una plataforma de identidad para aplicaciones web y moviles. Es un directorio de usuarios, un servicio de autenticacion y un servicio de autorizacion para los tokens y credenciales de AWS de acceso de Oauth 2.0
+con amazon cognito, puedes autenticar y autorizar a los usuarios desde el directorio de usuarios integrado, desde el directorio empresarial y desde proveedores de identidad de consumidores como google y facebook
+Los 2 componentes principales de amazon cognito son los grupos de usuarios y los grupos de identidades. los grupos de usuarios son directorios de usuarios que proporcionan opciones de registro e inicio de sesion para los usuarios
+de su aplicacion. Los grupos de identidades, le permiten crear identidades para sus usuarios y federarllas con proveedores de identidad.
 
+AWS config 
 
+es un servicio completamente administrado que le proporciona inventario de recuross, historial de configuracion y notificaciones de cambios de configuracion para utliar la segurida y la gobernanza. Con aws config, puede 
+descubir recursos de aws existentes, registrar configuraciones apra recursos de terceros, expotar un inventario completo de los recursos con todos los detalles de configuracion y determinar como se configuro e recurso
+en cualquier momento.
 
+Configuration Item
 
+*Representa una vista puntual de un recurso de AWS compatibles
+*Incluye metadatos, atributos, relaciones, configuracion actual y eventos relacionados
+*Se crea siempre que aws config detecta un cambio en un tipo de recurso que esta registrando
 
+Configuration hisory : el historial de configuracion es un registro detallado de los cambios en la configuracion de tus recursos a lo largo del tiempo. puedes utilizar el historial de configuracion para realizar un seguimiento de los cambios
+en la configuracion y evaluar el cumnplimiento con las politicas y las mejores practicas establecidas.
 
+Configuration recoder : el registrador de configuracion es un componente que registra automaticamente los cambios en tu configuracion de tus recursos y los almacen en el historial de configuracion. puedes habiliar o deshabilitar el registrador
+de configuracion segun sea necesario
 
+Configuration Rules : son las reglas de configuracion que especirfican los criterios de evaluacion para los recursos en tu cuenta. las reglas se aplican a los elementos de configuracion para evaluar si cumplen las politicas y las mejores practicas establecidas.
+tambien puedes crear reglas personalizadas o utilizar reglas administradas por AWS para evaluar el cumplimiento.
 
+AWS CloudTrail
 
+es un servicio de aws que lo ayuda a la gobernanza, la conformidad y las auditorias de operaciones y riesgos de su cuenta de AWS. las medidas que adopta un usuario, la funcion o un servicio de aws se registran como eventos de cloudtrail.
 
+sirve para 
 
-
-
-
-
-
-
-
-
-
+registrar la actividad de tu cuenta de aws y de otras fuentes
+guardar los eventos de forma segura y verificar su autenticidad
+cumplir con las normas de auditoria internas y externas
+buscar y analizar los eventos con consultas SQL
+recibir alertas y automatizar respuestas.
+personalizar e integrar las aplicaciones con la API.
 
 
 
