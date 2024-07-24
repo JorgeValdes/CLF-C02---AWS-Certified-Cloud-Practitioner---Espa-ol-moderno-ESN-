@@ -1,5 +1,5 @@
 Certificacion de AWS-Certificacion-Cloud-Practitioner
-para el dia 8 Julio 2024
+se retoma para sacarla este año 2024
 
 Seccion 1 : Introducción conceptos en la nube
 
@@ -638,37 +638,59 @@ buscar y analizar los eventos con consultas SQL
 recibir alertas y automatizar respuestas.
 personalizar e integrar las aplicaciones con la API.
 
+Amazon Guarduty
 
+es un servicio de deteccion de amenanzas que monitorea continuamente la actividad maliciosa y el comportamiento no autorizado para proteger sus cuentas de AWS, las cargas de trabajo de amazon elastic compute cloud, las aplicaiones en contenedores,
+las bases de datos de amazon aurora y los almacenados en amazon simple storage service (S3)
 
+Sirve para
 
+* Monitorear cuentas de AWS y cargas de trabajo
+* Detectar amenazas rapidamente
+* Mitigar las amenanzas con antelacion
+* Ayudar a los analistas en las investigaciones y automatizar la correcion
+* Obtener informacion sobre credenciales comprometidas y accesos inusuales.
 
+Amazon Inspector es un servicio de administracion de vulnerabilidades que analiza continuamente las cargas de trabajo de AWS en busca de vulnerabilidades de software y exposiciones involuntarias a la red, puede usar amazon Inspector en todas 
+las cuentas de su organizacion. Una vez que se inicia, detecta automaticamente las instancias de amazon EC2, las imagenes de contenedor de amazon ECR y  las funciones de AWS lambda, a escala y comienza de manera inmediata a evaluarlas en busca
+de vulnerabilidades conocidas.
 
+Sirve para 
 
+* descubir automaticamente cargas de trabajo y escanearlas
+* gestionar multiples cuentas de forma centralizada
+* recibir notificaciones cuando se detectan nuevas vulnerabilidades o exposiciones
+* evaluar la vulnerabilidades con precision
+* escanear continuamente tu entorno
+* utilizar la informacion actual para crear puntuaciones de riesgo contextuales
 
+Amazon macie
 
+es un servicio de seguridad de datos que detecta datos confidenciales mediante machine learning y la concordancia de patrones, proporciona visibilidad de los riesgos de seguridad de los datos y permite automatizar la proteccion contra esos riesgos.
+Macie evalua continuamente sus buckets de S3 en cuanto a controles de seguridad y acceso, y genera conclusiones para notificar problemas como los buckets sin cifrar, los de acceso publico y los que se comparten con cuentas de aws fuera
+de su orgnazicacion.
 
+sirve para
 
+* Automatiza el descubrimiento de datos confidenciales
+* evalua la seguridad y los controles de acceso a los buckets de S3
+* proporciona visibilidad de los datos confidenciales almacenados en amazon S3
+* ayuda a cumplir con los requisitos de cumplimiento normativo
+* permite la creacion de alertas para detectar y responder a eventos especificos
+* monitorea automatica y continuamente todos sus datos confidenciales almacenados en buckets de amazon S3
 
+AWS security HUB es un servicio de administracion de actitudes de seguridad en la nube que realiza comprobaciones de practicas recomendadas de seguridad continuas y automatizadas en sus recursos de AWS. con security hub, puede comprender su postura
+de seguridad general a traves de una puntuacion de seguridad consolidad en todas las cuentas y regiones de AWS.
 
+sirve para
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+* Vista completa de seguridad
+* Administracion de la posicion de seguridad en la nube (CSPM)
+* Hallazgos consolidados en todos los servicios de AWS
+* Soporte para multiples estandares de seguridad
+* Estandares de seguridad alineados con los marcos normativos y de cumplimiento de la industira
+* Comprobaciones automatizadas y continuas de las mejores practicas de seguridad
+* Acciones automatizadas ed respuesta correcion y enriquecimiento
 
 
 
